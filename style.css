@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Rubik:wght@400;500;600;700&display=swap');
+
+.text1 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 72px;
+    font-weight: 700;
+    letter-spacing: -2.16px;
+    color: #333333;
+    line-height: 68px;
+}
+
+.text2 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: -0.8px;
+    color: #333333;
+}
+
+.text3 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    letter-spacing: -0.32px;
+    color: #333333;
+}
+
+.text4 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: -0.048px;
+    color: #333333;
+}
+
+.par1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #97999B;
+}
+
+.button {
+    border-radius: 100px;
+    border: 3px solid #CCFF00;
+    padding: 15px 30px;
+    background-color: #CCFF00;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #333333;
+    min-width: 195px;
+}
+
+.sec {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.btn-outline-success:hover {
+    background-color: #FFFFFF !important;
+    border: 3px solid #CCFF00 !important;
+    color: #333333 !important;
+}
+
+.text-decoration-underline {
+    text-decoration: underline #CCFF00 !important;
+}
+
+.accordion {
+    --bs-accordion-active-bg: #CCFF00 !important;
+    --bs-accordion-btn-focus-box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #333333 !important;
+}
+
+input, input::placeholder {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #97999B !important;
+}
+
+.form-control.is-valid {
+    border: 2px solid #5F259F !important;
+    border-radius: 100px;
+    padding: 16px 24px;
+    max-width: 560px;
+    background-image: none;
+}
+
+.form-control.is-valid:focus {
+    border-color: none !important;
+    box-shadow: none !important;
+}
+
+@media(max-width: 800px) {
+    .lol1, .lol4, .lol6 {
+        zoom: 80%;
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+    .lol8, .btn-close {
+        zoom: 80%;
+    }
+}
+
+@media(max-width: 702px) {
+    .lol7 {
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media(max-width: 600px) {
+    .lol1, .lol4, .lol6 {
+        zoom: 60%;
+    }
+    nav, .lol3, .lol5 {
+        zoom: 75%;
+    }
+    .lol2 {
+        zoom: 95%;
+    }
+    footer {
+        zoom: 90%;
+    }
+}
+
+@media(max-width: 400px) {
+    .lol1, .lol4, .lol6 {
+        zoom: 45%;
+    }
+    .lol2 {
+        zoom: 80%;
+    }
+    footer {
+        zoom: 75%;
+    }
+    .lol5 {
+        zoom: 60%;
+    }
+    .lol3 {
+        zoom: 55%;
+    }
+    .lol8, .btn-close {
+        zoom: 70%;
+    }
+}
